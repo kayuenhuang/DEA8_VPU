@@ -1,0 +1,789 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Oct 18 02:27:50 2026
+# Process ID: 23516
+# Current directory: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/stress_101
+# Command line: xsim.exe -log stress.log -mode tcl -source {xsim.dir/real_sfu_joint/xsim_script.tcl}
+# Log file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/stress_101/stress.log
+# Journal file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/stress_101\xsim.jou
+# Running On: Wuya, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 16779 MB
+#-----------------------------------------------------------
+source xsim.dir/real_sfu_joint/xsim_script.tcl
+# xsim {real_sfu_joint} -testplusarg MODE=STRESS -testplusarg SEED=101 -wdb {stress.wdb} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+REAL_PROJECTION_DONE fn=14 cycles=1049 inputs=51 results=52
+CONTROL_JOB op=1 cycles=4884 issues=3328 sent=102 commands=1
+JOB_PERF op=K cycles=4884 matrix_issues=3328 first_issue=354 last_issue=3700 matrix_span=3347 matrix_util=99.43% job_matrix_occupancy=68.14% post_tail=1185 egress_tail=1 commands=1
+REAL_PROJECTION_DONE fn=13 cycles=137 inputs=32 results=32
+REAL_PROJECTION_DONE fn=13 cycles=137 inputs=32 results=32
+CONTROL_JOB op=2 cycles=3988 issues=3328 sent=128 commands=2
+JOB_PERF op=V cycles=3988 matrix_issues=3328 first_issue=5247 last_issue=8593 matrix_span=3347 matrix_util=99.43% job_matrix_occupancy=83.45% post_tail=295 egress_tail=1 commands=2
+CONTROL_PROGRESS cycle=10000 op=0 issues=769 post=0 capture=0 index=0 vec=13 sfu=0 region=1
+REAL_PROJECTION_DONE fn=14 cycles=1007 inputs=51 results=52
+REAL_PROJECTION_DONE fn=14 cycles=994 inputs=51 results=52
+CONTROL_PROGRESS cycle=20000 op=0 issues=10655 post=4 capture=25 index=42 vec=14 sfu=0 region=1
+REAL_PROJECTION_DONE fn=14 cycles=992 inputs=51 results=52
+REAL_PROJECTION_DONE fn=14 cycles=979 inputs=51 results=52
+REAL_PROJECTION_DONE fn=14 cycles=1003 inputs=51 results=52
+CONTROL_PROGRESS cycle=30000 op=0 issues=20541 post=4 capture=25 index=35 vec=14 sfu=0 region=1
+REAL_PROJECTION_DONE fn=14 cycles=997 inputs=51 results=52
+REAL_PROJECTION_DONE fn=14 cycles=989 inputs=51 results=52
+REAL_PROJECTION_DONE fn=14 cycles=993 inputs=51 results=52
+CONTROL_JOB op=0 cycles=28319 issues=26624 sent=0 commands=8
+JOB_PERF op=Q cycles=28319 matrix_issues=26624 first_issue=9231 last_issue=36139 matrix_span=26909 matrix_util=98.94% job_matrix_occupancy=94.01% post_tail=1074 egress_tail=37213 commands=8
+REAL_QK_ACCEPT tile=0 token=40000
+REAL_QK_DONE tile=0 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=0 cycle=38027
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_P_ACCEPT tile=0 token=40002
+REAL_SFU_ACCEPT fn=11 tile=0 cycle=38974
+CONTROL_PROGRESS cycle=40000 op=3 issues=832 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2115 reads=102 writes=0 results=26
+REAL_P_DONE tile=0 cycles=2149 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=1 token=40004
+REAL_QK_DONE tile=1 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=1 cycle=41278
+SFU_EXP_REPRO input=bf23dc00 output=3f06fa05 old_golden=3f06fa05
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_P_ACCEPT tile=1 token=40006
+REAL_SFU_ACCEPT fn=11 tile=1 cycle=42229
+REAL_SFU_DONE fn=11 cycles=2091 reads=102 writes=0 results=26
+REAL_P_DONE tile=1 cycles=2126 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=2 token=40008
+REAL_QK_DONE tile=2 cycles=148
+REAL_SCALE_ACCEPT tile=1 token=4000a
+REAL_SFU_ACCEPT fn=10 tile=2 cycle=44505
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=1 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=2 token=4000c
+REAL_SFU_ACCEPT fn=11 tile=2 cycle=46209
+REAL_SFU_DONE fn=11 cycles=2112 reads=102 writes=0 results=26
+REAL_P_DONE tile=2 cycles=2145 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=3 token=4000e
+REAL_QK_DONE tile=3 cycles=148
+REAL_SCALE_ACCEPT tile=2 token=40010
+REAL_SFU_ACCEPT fn=10 tile=3 cycle=48510
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=50000 op=3 issues=2496 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=2 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=3 token=40012
+REAL_SFU_ACCEPT fn=11 tile=3 cycle=50211
+REAL_SFU_DONE fn=11 cycles=2091 reads=102 writes=0 results=26
+REAL_P_DONE tile=3 cycles=2120 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=4 token=40014
+REAL_QK_DONE tile=4 cycles=148
+REAL_SCALE_ACCEPT tile=3 token=40016
+REAL_SFU_ACCEPT fn=10 tile=4 cycle=52487
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=3 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=4 token=40018
+REAL_SFU_ACCEPT fn=11 tile=4 cycle=54192
+REAL_SFU_DONE fn=11 cycles=2103 reads=102 writes=0 results=26
+REAL_P_DONE tile=4 cycles=2142 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=5 token=4001a
+REAL_QK_DONE tile=5 cycles=148
+REAL_SCALE_ACCEPT tile=4 token=4001c
+REAL_SFU_ACCEPT fn=10 tile=5 cycle=56481
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=4 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=5 token=4001e
+REAL_SFU_ACCEPT fn=11 tile=5 cycle=58191
+CONTROL_PROGRESS cycle=60000 op=3 issues=4992 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2099 reads=102 writes=0 results=26
+REAL_P_DONE tile=5 cycles=2135 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=6 token=40020
+REAL_QK_DONE tile=6 cycles=148
+REAL_SCALE_ACCEPT tile=5 token=40022
+REAL_SFU_ACCEPT fn=10 tile=6 cycle=60475
+REAL_SFU_DONE fn=10 cycles=936 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=5 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=6 token=40024
+REAL_SFU_ACCEPT fn=11 tile=6 cycle=62179
+REAL_SFU_DONE fn=11 cycles=2115 reads=102 writes=0 results=26
+REAL_P_DONE tile=6 cycles=2149 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=7 token=40026
+REAL_QK_DONE tile=7 cycles=148
+REAL_SCALE_ACCEPT tile=6 token=40028
+REAL_SFU_ACCEPT fn=10 tile=7 cycle=64481
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=6 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=7 token=4002a
+REAL_SFU_ACCEPT fn=11 tile=7 cycle=66187
+REAL_SFU_DONE fn=11 cycles=2083 reads=102 writes=0 results=26
+REAL_P_DONE tile=7 cycles=2114 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=8 token=4002c
+REAL_QK_DONE tile=8 cycles=148
+REAL_SCALE_ACCEPT tile=7 token=4002e
+REAL_SFU_ACCEPT fn=10 tile=8 cycle=68451
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=70000 op=3 issues=6656 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=7 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=8 token=40030
+REAL_SFU_ACCEPT fn=11 tile=8 cycle=70155
+REAL_SFU_DONE fn=11 cycles=2108 reads=102 writes=0 results=26
+REAL_P_DONE tile=8 cycles=2138 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=9 token=40032
+REAL_QK_DONE tile=9 cycles=148
+REAL_SCALE_ACCEPT tile=8 token=40034
+REAL_SFU_ACCEPT fn=10 tile=9 cycle=72445
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=8 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=9 token=40036
+REAL_SFU_ACCEPT fn=11 tile=9 cycle=74152
+REAL_SFU_DONE fn=11 cycles=2105 reads=102 writes=0 results=26
+REAL_P_DONE tile=9 cycles=2136 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=10 token=40038
+REAL_QK_DONE tile=10 cycles=148
+REAL_SCALE_ACCEPT tile=9 token=4003a
+REAL_SFU_ACCEPT fn=10 tile=10 cycle=76441
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=9 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=10 token=4003c
+REAL_SFU_ACCEPT fn=11 tile=10 cycle=78145
+CONTROL_PROGRESS cycle=80000 op=3 issues=9152 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2086 reads=102 writes=0 results=26
+REAL_P_DONE tile=10 cycles=2121 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=11 token=4003e
+REAL_QK_DONE tile=11 cycles=148
+REAL_SCALE_ACCEPT tile=10 token=40040
+REAL_SFU_ACCEPT fn=10 tile=11 cycle=80416
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=10 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=11 token=40042
+REAL_SFU_ACCEPT fn=11 tile=11 cycle=82126
+REAL_SFU_DONE fn=11 cycles=2095 reads=102 writes=0 results=26
+REAL_P_DONE tile=11 cycles=2130 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=12 token=40044
+REAL_QK_DONE tile=12 cycles=148
+REAL_SCALE_ACCEPT tile=11 token=40046
+REAL_SFU_ACCEPT fn=10 tile=12 cycle=84404
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=11 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=12 token=40048
+REAL_SFU_ACCEPT fn=11 tile=12 cycle=86112
+REAL_SFU_DONE fn=11 cycles=2097 reads=102 writes=0 results=26
+REAL_P_DONE tile=12 cycles=2132 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=13 token=4004a
+REAL_QK_DONE tile=13 cycles=148
+REAL_SCALE_ACCEPT tile=12 token=4004c
+REAL_SFU_ACCEPT fn=10 tile=13 cycle=88396
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=90000 op=3 issues=10816 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=12 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=13 token=4004e
+REAL_SFU_ACCEPT fn=11 tile=13 cycle=90096
+REAL_SFU_DONE fn=11 cycles=2111 reads=102 writes=0 results=26
+REAL_P_DONE tile=13 cycles=2143 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=14 token=40050
+REAL_QK_DONE tile=14 cycles=148
+REAL_SCALE_ACCEPT tile=13 token=40052
+REAL_SFU_ACCEPT fn=10 tile=14 cycle=92396
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=13 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=14 token=40054
+REAL_SFU_ACCEPT fn=11 tile=14 cycle=94097
+REAL_SFU_DONE fn=11 cycles=2094 reads=102 writes=0 results=26
+REAL_P_DONE tile=14 cycles=2128 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=15 token=40056
+REAL_QK_DONE tile=15 cycles=148
+REAL_SCALE_ACCEPT tile=14 token=40058
+REAL_SFU_ACCEPT fn=10 tile=15 cycle=96381
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=14 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=15 token=4005a
+REAL_SFU_ACCEPT fn=11 tile=15 cycle=98085
+CONTROL_PROGRESS cycle=100000 op=3 issues=13312 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2115 reads=102 writes=0 results=26
+REAL_P_DONE tile=15 cycles=2147 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=16 token=4005c
+REAL_QK_DONE tile=16 cycles=148
+REAL_SCALE_ACCEPT tile=15 token=4005e
+REAL_SFU_ACCEPT fn=10 tile=16 cycle=100385
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=15 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=16 token=40060
+REAL_SFU_ACCEPT fn=11 tile=16 cycle=102088
+REAL_SFU_DONE fn=11 cycles=2113 reads=102 writes=0 results=26
+REAL_P_DONE tile=16 cycles=2144 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=17 token=40062
+REAL_QK_DONE tile=17 cycles=148
+REAL_SCALE_ACCEPT tile=16 token=40064
+REAL_SFU_ACCEPT fn=10 tile=17 cycle=104387
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=16 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=17 token=40066
+REAL_SFU_ACCEPT fn=11 tile=17 cycle=106087
+REAL_SFU_DONE fn=11 cycles=2135 reads=102 writes=0 results=26
+REAL_P_DONE tile=17 cycles=2168 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=18 token=40068
+REAL_QK_DONE tile=18 cycles=148
+REAL_SCALE_ACCEPT tile=17 token=4006a
+REAL_SFU_ACCEPT fn=10 tile=18 cycle=108407
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=110000 op=3 issues=14976 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=17 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=18 token=4006c
+REAL_SFU_ACCEPT fn=11 tile=18 cycle=110112
+REAL_SFU_DONE fn=11 cycles=2113 reads=102 writes=0 results=26
+REAL_P_DONE tile=18 cycles=2144 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=19 token=4006e
+REAL_QK_DONE tile=19 cycles=148
+REAL_SCALE_ACCEPT tile=18 token=40070
+REAL_SFU_ACCEPT fn=10 tile=19 cycle=112413
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=18 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=19 token=40072
+REAL_SFU_ACCEPT fn=11 tile=19 cycle=114117
+REAL_SFU_DONE fn=11 cycles=2103 reads=102 writes=0 results=26
+REAL_P_DONE tile=19 cycles=2135 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=20 token=40074
+REAL_QK_DONE tile=20 cycles=148
+REAL_SCALE_ACCEPT tile=19 token=40076
+REAL_SFU_ACCEPT fn=10 tile=20 cycle=116404
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=19 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=20 token=40078
+REAL_SFU_ACCEPT fn=11 tile=20 cycle=118106
+CONTROL_PROGRESS cycle=120000 op=3 issues=17472 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2097 reads=102 writes=0 results=26
+REAL_P_DONE tile=20 cycles=2130 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=21 token=4007a
+REAL_QK_DONE tile=21 cycles=148
+REAL_SCALE_ACCEPT tile=20 token=4007c
+REAL_SFU_ACCEPT fn=10 tile=21 cycle=120390
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=20 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=21 token=4007e
+REAL_SFU_ACCEPT fn=11 tile=21 cycle=122093
+REAL_SFU_DONE fn=11 cycles=2107 reads=102 writes=0 results=26
+REAL_P_DONE tile=21 cycles=2139 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=22 token=40080
+REAL_QK_DONE tile=22 cycles=148
+REAL_SCALE_ACCEPT tile=21 token=40082
+REAL_SFU_ACCEPT fn=10 tile=22 cycle=124385
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=21 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=22 token=40084
+REAL_SFU_ACCEPT fn=11 tile=22 cycle=126090
+REAL_SFU_DONE fn=11 cycles=2098 reads=102 writes=0 results=26
+REAL_P_DONE tile=22 cycles=2131 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=23 token=40086
+REAL_QK_DONE tile=23 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=23 cycle=128370
+REAL_SCALE_ACCEPT tile=22 token=40088
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=130000 op=3 issues=19136 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=22 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=23 token=4008a
+REAL_SFU_ACCEPT fn=11 tile=23 cycle=130078
+REAL_SFU_DONE fn=11 cycles=2097 reads=102 writes=0 results=26
+REAL_P_DONE tile=23 cycles=2128 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=24 token=4008c
+REAL_QK_DONE tile=24 cycles=148
+REAL_SCALE_ACCEPT tile=23 token=4008e
+REAL_SFU_ACCEPT fn=10 tile=24 cycle=132360
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=23 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=24 token=40090
+REAL_SFU_ACCEPT fn=11 tile=24 cycle=134065
+REAL_SFU_DONE fn=11 cycles=2102 reads=102 writes=0 results=26
+REAL_P_DONE tile=24 cycles=2138 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=25 token=40092
+REAL_QK_DONE tile=25 cycles=148
+REAL_SCALE_ACCEPT tile=24 token=40094
+REAL_SFU_ACCEPT fn=10 tile=25 cycle=136351
+REAL_SFU_DONE fn=10 cycles=936 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=24 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=25 token=40096
+REAL_SFU_ACCEPT fn=11 tile=25 cycle=138059
+CONTROL_PROGRESS cycle=140000 op=3 issues=21632 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2109 reads=102 writes=0 results=26
+REAL_P_DONE tile=25 cycles=2142 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=26 token=40098
+REAL_QK_DONE tile=26 cycles=148
+REAL_SCALE_ACCEPT tile=25 token=4009a
+REAL_SFU_ACCEPT fn=10 tile=26 cycle=140354
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=25 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=26 token=4009c
+REAL_SFU_ACCEPT fn=11 tile=26 cycle=142056
+REAL_SFU_DONE fn=11 cycles=2102 reads=102 writes=0 results=26
+REAL_P_DONE tile=26 cycles=2134 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=27 token=4009e
+REAL_QK_DONE tile=27 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=27 cycle=144340
+REAL_SCALE_ACCEPT tile=26 token=400a0
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=26 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=27 token=400a2
+REAL_SFU_ACCEPT fn=11 tile=27 cycle=146045
+REAL_SFU_DONE fn=11 cycles=2116 reads=102 writes=0 results=26
+REAL_P_DONE tile=27 cycles=2148 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=28 token=400a4
+REAL_QK_DONE tile=28 cycles=148
+REAL_SCALE_ACCEPT tile=27 token=400a6
+REAL_SFU_ACCEPT fn=10 tile=28 cycle=148347
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=150000 op=3 issues=23296 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=27 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=28 token=400a8
+REAL_SFU_ACCEPT fn=11 tile=28 cycle=150052
+REAL_SFU_DONE fn=11 cycles=2105 reads=102 writes=0 results=26
+REAL_P_DONE tile=28 cycles=2137 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=29 token=400aa
+REAL_QK_DONE tile=29 cycles=148
+REAL_SCALE_ACCEPT tile=28 token=400ac
+REAL_SFU_ACCEPT fn=10 tile=29 cycle=152345
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=28 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=29 token=400ae
+REAL_SFU_ACCEPT fn=11 tile=29 cycle=154044
+REAL_SFU_DONE fn=11 cycles=2125 reads=102 writes=0 results=26
+REAL_P_DONE tile=29 cycles=2155 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=30 token=400b0
+REAL_QK_DONE tile=30 cycles=148
+REAL_SCALE_ACCEPT tile=29 token=400b2
+REAL_SFU_ACCEPT fn=10 tile=30 cycle=156352
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=29 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=30 token=400b4
+REAL_SFU_ACCEPT fn=11 tile=30 cycle=158060
+CONTROL_PROGRESS cycle=160000 op=3 issues=25792 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2114 reads=102 writes=0 results=26
+REAL_P_DONE tile=30 cycles=2146 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=31 token=400b6
+REAL_QK_DONE tile=31 cycles=148
+REAL_SCALE_ACCEPT tile=30 token=400b8
+REAL_SFU_ACCEPT fn=10 tile=31 cycle=160358
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=30 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=31 token=400ba
+REAL_SFU_ACCEPT fn=11 tile=31 cycle=162064
+REAL_SFU_DONE fn=11 cycles=2118 reads=102 writes=0 results=26
+REAL_P_DONE tile=31 cycles=2155 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=32 token=400bc
+REAL_QK_DONE tile=32 cycles=148
+REAL_SCALE_ACCEPT tile=31 token=400be
+REAL_SFU_ACCEPT fn=10 tile=32 cycle=164367
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=31 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=32 token=400c0
+REAL_SFU_ACCEPT fn=11 tile=32 cycle=166071
+REAL_SFU_DONE fn=11 cycles=2108 reads=102 writes=0 results=26
+REAL_P_DONE tile=32 cycles=2135 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=33 token=400c2
+REAL_QK_DONE tile=33 cycles=148
+REAL_SCALE_ACCEPT tile=32 token=400c4
+REAL_SFU_ACCEPT fn=10 tile=33 cycle=168362
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=170000 op=3 issues=27456 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=32 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=33 token=400c6
+REAL_SFU_ACCEPT fn=11 tile=33 cycle=170065
+REAL_SFU_DONE fn=11 cycles=2111 reads=102 writes=0 results=26
+REAL_P_DONE tile=33 cycles=2145 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=34 token=400c8
+REAL_QK_DONE tile=34 cycles=148
+REAL_SCALE_ACCEPT tile=33 token=400ca
+REAL_SFU_ACCEPT fn=10 tile=34 cycle=172365
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=33 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=34 token=400cc
+REAL_SFU_ACCEPT fn=11 tile=34 cycle=174068
+REAL_SFU_DONE fn=11 cycles=2097 reads=102 writes=0 results=26
+REAL_P_DONE tile=34 cycles=2130 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=35 token=400ce
+REAL_QK_DONE tile=35 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=35 cycle=176347
+REAL_SCALE_ACCEPT tile=34 token=400d0
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=34 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=35 token=400d2
+REAL_SFU_ACCEPT fn=11 tile=35 cycle=178052
+CONTROL_PROGRESS cycle=180000 op=3 issues=29952 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2085 reads=102 writes=0 results=26
+REAL_P_DONE tile=35 cycles=2116 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=36 token=400d4
+REAL_QK_DONE tile=36 cycles=148
+REAL_SCALE_ACCEPT tile=35 token=400d6
+REAL_SFU_ACCEPT fn=10 tile=36 cycle=180324
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=35 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=36 token=400d8
+REAL_SFU_ACCEPT fn=11 tile=36 cycle=182030
+REAL_SFU_DONE fn=11 cycles=2092 reads=102 writes=0 results=26
+REAL_P_DONE tile=36 cycles=2125 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=37 token=400da
+REAL_QK_DONE tile=37 cycles=148
+REAL_SCALE_ACCEPT tile=36 token=400dc
+REAL_SFU_ACCEPT fn=10 tile=37 cycle=184303
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=36 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=37 token=400de
+REAL_SFU_ACCEPT fn=11 tile=37 cycle=186012
+REAL_SFU_DONE fn=11 cycles=2110 reads=102 writes=0 results=26
+REAL_P_DONE tile=37 cycles=2147 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=38 token=400e0
+REAL_QK_DONE tile=38 cycles=148
+REAL_SCALE_ACCEPT tile=37 token=400e2
+REAL_SFU_ACCEPT fn=10 tile=38 cycle=188311
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+CONTROL_PROGRESS cycle=190000 op=3 issues=31616 post=0 capture=0 index=0 vec=6 sfu=10 region=1
+REAL_SCALE_DONE tile=37 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=38 token=400e4
+REAL_SFU_ACCEPT fn=11 tile=38 cycle=190011
+REAL_SFU_DONE fn=11 cycles=2096 reads=102 writes=0 results=26
+REAL_P_DONE tile=38 cycles=2129 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=39 token=400e6
+REAL_QK_DONE tile=39 cycles=148
+REAL_SCALE_ACCEPT tile=38 token=400e8
+REAL_SFU_ACCEPT fn=10 tile=39 cycle=192297
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=38 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=39 token=400ea
+REAL_SFU_ACCEPT fn=11 tile=39 cycle=193999
+REAL_SFU_DONE fn=11 cycles=2107 reads=102 writes=0 results=26
+REAL_P_DONE tile=39 cycles=2136 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=40 token=400ec
+REAL_QK_DONE tile=40 cycles=148
+REAL_SCALE_ACCEPT tile=39 token=400ee
+REAL_SFU_ACCEPT fn=10 tile=40 cycle=196287
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=39 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=40 token=400f0
+REAL_SFU_ACCEPT fn=11 tile=40 cycle=197995
+CONTROL_PROGRESS cycle=200000 op=3 issues=34112 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2105 reads=102 writes=0 results=26
+REAL_P_DONE tile=40 cycles=2140 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=41 token=400f2
+REAL_QK_DONE tile=41 cycles=148
+REAL_SCALE_ACCEPT tile=40 token=400f4
+REAL_SFU_ACCEPT fn=10 tile=41 cycle=200283
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=40 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=41 token=400f6
+REAL_SFU_ACCEPT fn=11 tile=41 cycle=201992
+REAL_SFU_DONE fn=11 cycles=2100 reads=102 writes=0 results=26
+REAL_P_DONE tile=41 cycles=2138 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=42 token=400f8
+REAL_QK_DONE tile=42 cycles=148
+REAL_SCALE_ACCEPT tile=41 token=400fa
+REAL_SFU_ACCEPT fn=10 tile=42 cycle=204283
+REAL_SFU_DONE fn=10 cycles=939 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=41 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=42 token=400fc
+REAL_SFU_ACCEPT fn=11 tile=42 cycle=205988
+REAL_SFU_DONE fn=11 cycles=2104 reads=102 writes=0 results=26
+REAL_P_DONE tile=42 cycles=2142 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=43 token=400fe
+REAL_QK_DONE tile=43 cycles=148
+REAL_SCALE_ACCEPT tile=42 token=40100
+REAL_SFU_ACCEPT fn=10 tile=43 cycle=208280
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=42 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=43 token=40102
+REAL_SFU_ACCEPT fn=11 tile=43 cycle=209987
+CONTROL_PROGRESS cycle=210000 op=3 issues=35792 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2095 reads=102 writes=0 results=26
+REAL_P_DONE tile=43 cycles=2130 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=44 token=40104
+REAL_QK_DONE tile=44 cycles=148
+REAL_SCALE_ACCEPT tile=43 token=40106
+REAL_SFU_ACCEPT fn=10 tile=44 cycle=212264
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=43 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=44 token=40108
+REAL_SFU_ACCEPT fn=11 tile=44 cycle=213970
+REAL_SFU_DONE fn=11 cycles=2105 reads=102 writes=0 results=26
+REAL_P_DONE tile=44 cycles=2137 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=45 token=4010a
+REAL_QK_DONE tile=45 cycles=148
+REAL_SCALE_ACCEPT tile=44 token=4010c
+REAL_SFU_ACCEPT fn=10 tile=45 cycle=216258
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=44 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=45 token=4010e
+REAL_SFU_ACCEPT fn=11 tile=45 cycle=217962
+CONTROL_PROGRESS cycle=220000 op=3 issues=38272 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2119 reads=102 writes=0 results=26
+REAL_P_DONE tile=45 cycles=2152 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=46 token=40110
+REAL_QK_DONE tile=46 cycles=148
+REAL_SCALE_ACCEPT tile=45 token=40112
+REAL_SFU_ACCEPT fn=10 tile=46 cycle=220269
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=45 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=46 token=40114
+REAL_SFU_ACCEPT fn=11 tile=46 cycle=221972
+REAL_SFU_DONE fn=11 cycles=2098 reads=102 writes=0 results=26
+REAL_P_DONE tile=46 cycles=2132 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=47 token=40116
+REAL_QK_DONE tile=47 cycles=148
+REAL_SCALE_ACCEPT tile=46 token=40118
+REAL_SFU_ACCEPT fn=10 tile=47 cycle=224257
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=46 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=47 token=4011a
+REAL_SFU_ACCEPT fn=11 tile=47 cycle=225960
+REAL_SFU_DONE fn=11 cycles=2110 reads=102 writes=0 results=26
+REAL_P_DONE tile=47 cycles=2140 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=48 token=4011c
+REAL_QK_DONE tile=48 cycles=148
+REAL_SFU_ACCEPT fn=10 tile=48 cycle=228252
+REAL_SCALE_ACCEPT tile=47 token=4011e
+REAL_SFU_DONE fn=10 cycles=941 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=47 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=48 token=40120
+REAL_SFU_ACCEPT fn=11 tile=48 cycle=229963
+CONTROL_PROGRESS cycle=230000 op=3 issues=39976 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2102 reads=102 writes=0 results=26
+REAL_P_DONE tile=48 cycles=2140 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=49 token=40122
+REAL_QK_DONE tile=49 cycles=148
+REAL_SCALE_ACCEPT tile=48 token=40124
+REAL_SFU_ACCEPT fn=10 tile=49 cycle=232253
+REAL_SFU_DONE fn=10 cycles=936 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=48 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=49 token=40126
+REAL_SFU_ACCEPT fn=11 tile=49 cycle=233954
+REAL_SFU_DONE fn=11 cycles=2092 reads=102 writes=0 results=26
+REAL_P_DONE tile=49 cycles=2125 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=50 token=40128
+REAL_QK_DONE tile=50 cycles=148
+REAL_SCALE_ACCEPT tile=49 token=4012a
+REAL_SFU_ACCEPT fn=10 tile=50 cycle=236235
+REAL_SFU_DONE fn=10 cycles=937 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=49 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=50 token=4012c
+REAL_SFU_ACCEPT fn=11 tile=50 cycle=237937
+CONTROL_PROGRESS cycle=240000 op=3 issues=42432 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2081 reads=102 writes=0 results=26
+REAL_P_DONE tile=50 cycles=2115 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=51 token=4012e
+REAL_QK_DONE tile=51 cycles=148
+REAL_SCALE_ACCEPT tile=50 token=40130
+REAL_SFU_ACCEPT fn=10 tile=51 cycle=240208
+REAL_SFU_DONE fn=10 cycles=938 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=50 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=51 token=40132
+REAL_SFU_ACCEPT fn=11 tile=51 cycle=241914
+REAL_SFU_DONE fn=11 cycles=2093 reads=102 writes=0 results=26
+REAL_P_DONE tile=51 cycles=2126 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=52 token=40134
+REAL_QK_DONE tile=52 cycles=148
+REAL_SCALE_ACCEPT tile=51 token=40136
+REAL_SFU_ACCEPT fn=10 tile=52 cycle=244191
+REAL_SFU_DONE fn=10 cycles=936 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=51 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=52 token=40138
+REAL_SFU_ACCEPT fn=11 tile=52 cycle=245896
+REAL_SFU_DONE fn=11 cycles=2100 reads=102 writes=0 results=26
+REAL_P_DONE tile=52 cycles=2138 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=53 token=4013a
+REAL_QK_DONE tile=53 cycles=148
+REAL_SCALE_ACCEPT tile=52 token=4013c
+REAL_SFU_ACCEPT fn=10 tile=53 cycle=248187
+REAL_SFU_DONE fn=10 cycles=940 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=52 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=53 token=4013e
+REAL_SFU_ACCEPT fn=11 tile=53 cycle=249889
+CONTROL_PROGRESS cycle=250000 op=3 issues=44207 post=0 capture=0 index=0 vec=5 sfu=11 region=1
+REAL_SFU_DONE fn=11 cycles=2097 reads=102 writes=0 results=26
+REAL_P_DONE tile=53 cycles=2131 data=26 result=26 lwrite=4
+REAL_QK_ACCEPT tile=54 token=40140
+REAL_QK_DONE tile=54 cycles=148
+REAL_SCALE_ACCEPT tile=53 token=40142
+REAL_SFU_ACCEPT fn=10 tile=54 cycle=252170
+REAL_SFU_DONE fn=10 cycles=942 reads=51 writes=51 results=0
+REAL_SCALE_DONE tile=53 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_P_ACCEPT tile=54 token=40144
+REAL_SFU_ACCEPT fn=11 tile=54 cycle=253876
+REAL_SFU_DONE fn=11 cycles=2110 reads=102 writes=0 results=26
+REAL_P_DONE tile=54 cycles=2142 data=26 result=26 lwrite=4
+REAL_SCALE_ACCEPT tile=54 token=40146
+REAL_SCALE_DONE tile=54 cycles=1697 mem=4 acc_reads=416 acc_writes=416 margin=-1263
+REAL_SFU_ACCEPT fn=12 tile=0 cycle=258157
+CONTROL_PROGRESS cycle=260000 op=3 issues=45760 post=0 capture=0 index=0 vec=6 sfu=12 region=2
+REAL_SFU_DONE fn=12 cycles=1995 reads=51 writes=51 results=0
+REAL_AFIN_ACCEPT token=40148
+REAL_AFIN_DONE cycles=1705 mem_req=4 mem_rsp=4 acc_reads=416 results=416
+CONTROL_JOB op=3 cycles=224626 issues=45760 sent=0 commands=165
+JOB_PERF op=ATTENTION cycles=224626 matrix_issues=45760 first_issue=37439 last_issue=258132 matrix_span=220694 matrix_util=20.73% job_matrix_occupancy=20.37% post_tail=3734 egress_tail=261866 commands=165
+ATTN_PERF qk_jobs=55 pv_jobs=55 matrix_body=45760 steady_interval_max=3585 steady_interval_avg=2012 qk_post_max=148 alpha_max=942 p_exp_max=2135 p_post_max=2168 scale_cycles=1697 scale_margin_min=-1263 recip=1995 afin=1705 total_cycles=224626
+CONTROL_PROGRESS cycle=270000 op=4 issues=7617 post=0 capture=0 index=0 vec=16 sfu=12 region=2
+CONTROL_PROGRESS cycle=280000 op=4 issues=17065 post=0 capture=0 index=0 vec=16 sfu=12 region=2
+CONTROL_PROGRESS cycle=290000 op=4 issues=26537 post=0 capture=0 index=0 vec=16 sfu=12 region=2
+CONTROL_JOB op=4 cycles=28312 issues=26624 sent=3264 commands=0
+JOB_PERF op=O cycles=28312 matrix_issues=26624 first_issue=261951 last_issue=290086 matrix_span=28136 matrix_util=94.62% job_matrix_occupancy=94.03% post_tail=116 egress_tail=5 commands=0
+REAL_SFU_ACCEPT fn=9 tile=0 cycle=293862
+CONTROL_PROGRESS cycle=300000 op=5 issues=6604 post=4 capture=0 index=34 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9192 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9306 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=1 cycle=303178
+CONTROL_PROGRESS cycle=310000 op=5 issues=9932 post=4 capture=0 index=37 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9191 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9309 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=2 cycle=312492
+CONTROL_PROGRESS cycle=320000 op=5 issues=13260 post=4 capture=0 index=41 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9180 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9294 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=3 cycle=321792
+CONTROL_PROGRESS cycle=330000 op=5 issues=16588 post=4 capture=0 index=45 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9177 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9293 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=4 cycle=331093
+CONTROL_PROGRESS cycle=340000 op=5 issues=19916 post=4 capture=0 index=49 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9203 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9321 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=5 cycle=340425
+REAL_SFU_DONE fn=9 cycles=9170 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9292 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=6 cycle=349722
+CONTROL_PROGRESS cycle=350000 op=5 issues=23813 post=4 capture=0 index=1 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9206 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9322 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=7 cycle=359052
+CONTROL_PROGRESS cycle=360000 op=5 issues=27812 post=4 capture=0 index=5 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9195 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9313 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=8 cycle=368370
+CONTROL_PROGRESS cycle=370000 op=5 issues=31822 post=4 capture=0 index=9 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9185 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9306 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=9 cycle=377684
+CONTROL_PROGRESS cycle=380000 op=5 issues=35833 post=4 capture=0 index=12 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9158 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9280 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=10 cycle=386969
+CONTROL_PROGRESS cycle=390000 op=5 issues=39878 post=4 capture=0 index=16 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9185 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9303 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=11 cycle=396278
+CONTROL_PROGRESS cycle=400000 op=5 issues=43212 post=4 capture=0 index=20 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9180 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9299 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=12 cycle=405585
+CONTROL_PROGRESS cycle=410000 op=5 issues=46540 post=4 capture=0 index=24 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9183 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9303 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=13 cycle=414899
+CONTROL_PROGRESS cycle=420000 op=5 issues=49868 post=4 capture=0 index=28 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9204 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9325 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=14 cycle=424227
+CONTROL_PROGRESS cycle=430000 op=5 issues=53196 post=4 capture=0 index=32 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9171 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9286 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=15 cycle=433520
+CONTROL_PROGRESS cycle=440000 op=5 issues=56524 post=4 capture=0 index=36 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9183 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9300 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=16 cycle=442829
+CONTROL_PROGRESS cycle=450000 op=5 issues=59852 post=4 capture=0 index=39 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9193 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9314 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=17 cycle=452150
+CONTROL_PROGRESS cycle=460000 op=5 issues=63180 post=4 capture=0 index=43 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9190 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9309 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=18 cycle=461463
+CONTROL_PROGRESS cycle=470000 op=5 issues=66508 post=4 capture=0 index=47 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9186 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9299 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=19 cycle=470769
+REAL_SFU_DONE fn=9 cycles=9197 reads=0 writes=0 results=51
+CONTROL_PROGRESS cycle=480000 op=5 issues=70038 post=5 capture=0 index=50 vec=15 sfu=9 region=3
+REAL_PROJECTION_DONE fn=15 cycles=9312 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=20 cycle=480092
+REAL_SFU_DONE fn=9 cycles=9163 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9284 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=21 cycle=489381
+CONTROL_PROGRESS cycle=490000 op=5 issues=74075 post=4 capture=0 index=3 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9199 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9318 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=22 cycle=498704
+CONTROL_PROGRESS cycle=500000 op=5 issues=78076 post=4 capture=0 index=7 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9163 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9278 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=23 cycle=507992
+CONTROL_PROGRESS cycle=510000 op=5 issues=82121 post=4 capture=0 index=11 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9192 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9310 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=24 cycle=517311
+CONTROL_PROGRESS cycle=520000 op=5 issues=86131 post=4 capture=0 index=14 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9164 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9283 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=25 cycle=526600
+CONTROL_PROGRESS cycle=530000 op=5 issues=89804 post=4 capture=0 index=18 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9182 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9301 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=26 cycle=535907
+CONTROL_PROGRESS cycle=540000 op=5 issues=93132 post=4 capture=0 index=22 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9170 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9291 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=27 cycle=545208
+CONTROL_PROGRESS cycle=550000 op=5 issues=96460 post=4 capture=0 index=26 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9183 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9305 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=28 cycle=554518
+CONTROL_PROGRESS cycle=560000 op=5 issues=99788 post=4 capture=0 index=30 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9197 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9315 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=29 cycle=563838
+CONTROL_PROGRESS cycle=570000 op=5 issues=103116 post=4 capture=0 index=34 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9184 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9302 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=30 cycle=573147
+CONTROL_PROGRESS cycle=580000 op=5 issues=106444 post=4 capture=0 index=38 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9200 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9321 inputs=51 results=26
+REAL_SFU_ACCEPT fn=9 tile=31 cycle=582476
+CONTROL_PROGRESS cycle=590000 op=5 issues=106496 post=4 capture=0 index=41 vec=15 sfu=9 region=3
+REAL_SFU_DONE fn=9 cycles=9188 reads=0 writes=0 results=51
+REAL_PROJECTION_DONE fn=15 cycles=9306 inputs=51 results=26
+CONTROL_JOB op=5 cycles=301557 issues=106496 sent=0 commands=32
+JOB_PERF op=GU cycles=301557 matrix_issues=106496 first_issue=290510 last_issue=582218 matrix_span=291709 matrix_util=36.50% job_matrix_occupancy=35.31% post_tail=9564 egress_tail=591782 commands=32
+CONTROL_PROGRESS cycle=600000 op=6 issues=7912 post=0 capture=0 index=0 vec=15 sfu=9 region=3
+CONTROL_PROGRESS cycle=610000 op=6 issues=17624 post=0 capture=0 index=0 vec=15 sfu=9 region=3
+CONTROL_PROGRESS cycle=620000 op=6 issues=27360 post=0 capture=0 index=0 vec=15 sfu=9 region=3
+CONTROL_PROGRESS cycle=630000 op=6 issues=37072 post=0 capture=0 index=0 vec=15 sfu=9 region=3
+CONTROL_PROGRESS cycle=640000 op=6 issues=46784 post=0 capture=0 index=0 vec=15 sfu=9 region=3
+CONTROL_JOB op=6 cycles=54938 issues=53248 sent=3264 commands=0
+JOB_PERF op=DOWN cycles=54938 matrix_issues=53248 first_issue=591872 last_issue=646631 matrix_span=54760 matrix_util=97.23% job_matrix_occupancy=96.92% post_tail=118 egress_tail=5 commands=0
+STRESS_BIN channel=0 count=10742
+STRESS_BIN channel=1 count=15707
+STRESS_BIN channel=2 count=3969
+STRESS_BIN channel=3 count=624
+STRESS_BIN channel=4 count=704
+STRESS_BIN channel=5 count=9630
+STRESS_BIN channel=6 count=15261
+STRESS_BIN channel=7 count=624
+STRESS_BIN channel=8 count=707
+STRESS_BIN channel=9 count=72930
+STRESS_BIN channel=10 count=2640
+STRESS_BIN channel=11 count=2300
+STRESS_BIN channel=12 count=459
+STRESS_BIN channel=13 count=266309
+STRESS_BIN channel=14 count=318904
+STRESS_BIN channel=15 count=202490
+STRESS_BIN channel=16 count=48
+STRESS_BIN channel=17 count=1646
+CONTROL_LIFECYCLE Q_reads=22880 Q_release=1 O_acquire=1 PV54_commit=1
+CONTROL_COVER_JOB op=0 issues=26624 packets=0 vpu=8 barrier=0 done_hold=26
+CONTROL_COVER_JOB op=1 issues=3328 packets=102 vpu=1 barrier=0 done_hold=14
+CONTROL_COVER_JOB op=2 issues=3328 packets=128 vpu=2 barrier=0 done_hold=5
+CONTROL_COVER_JOB op=3 issues=45760 packets=0 vpu=165 barrier=0 done_hold=23
+CONTROL_COVER_JOB op=4 issues=26624 packets=3264 vpu=0 barrier=0 done_hold=22
+CONTROL_COVER_JOB op=5 issues=106496 packets=0 vpu=32 barrier=0 done_hold=28
+CONTROL_COVER_JOB op=6 issues=53248 packets=3264 vpu=0 barrier=0 done_hold=28
+CONTROL_COVER seed=101 stress=1 xbc_gap=10742 hbm_gap=15707 kvb_gap=3969 vcmd_stall=624 fcmd_stall=704 vresult_delay=9630 fresult_delay=15261 vdone_delay=624 fdone_delay=707 acc_backpressure=72930 workspace_backpressure=2640 rope_request_stall=2300 rope_response_stall=459 kv_out_stall=48 reduce_out_stall=1646 sfu_commands=143
+REAL_SFU_SEVEN_JOB_COVER commands=143 model_driver=0
+tb_pcore_control PASS jobs=7 issues=265408 attention_jobs=110 real_rope=1 real_gelu=1 real_softmax=1 all_mask_row=1 q_o_z_chain=1 egress_backpressure=1 mode=STRESS vpu_lanes=32 sfu_lanes=4 rope_lat=8 acc_rd_lat=2 work_lat=1
+$finish called at time : 2587248 ns : File "D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/tb/tb_pcore_vpu_sfu.sv" Line 1745
+run: Time (s): cpu = 00:00:06 ; elapsed = 01:22:26 . Memory (MB): peak = 239.305 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 233136 KB (Peak: 233136 KB), Simulation CPU Usage: 4906390 ms
+INFO: [Common 17-206] Exiting xsim at Sun Oct 18 03:50:18 2026...
