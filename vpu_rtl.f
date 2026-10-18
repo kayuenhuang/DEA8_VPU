@@ -1,0 +1,12 @@
+VPU/vpu_vendor/dea8_fp32_v3_pkg.sv
+VPU/vpu_rtl/dea8_vpu_math_pkg.sv
+VPU/vpu_rtl/dea8_vpu_quant16.sv
+VPU/vpu_rtl/dea8_vpu_quant16_pipe.sv
+VPU/vpu_rtl/dea8_vpu_mul32_shared.sv
+VPU/vpu_rtl/dea8_vpu_dsp_addsub.sv
+VPU/vpu_rtl/dea8_vpu_add_pipe.sv
+VPU/vpu_rtl/dea8_vpu_p_pipe.sv
+VPU/vpu_rtl/dea8_vpu_qk_post_pair_v3.sv
+VPU/vpu_rtl/dea8_vpu_saved_ram.sv
+VPU/vpu_rtl/dea8_vpu_stream_ram.sv
+VPU/vpu_rtl/dea8_vpu_top.sv

@@ -1,0 +1,9 @@
+SFU/rtl/dea8_sfu_fixed_pkg.sv
+SFU/rtl/dea8_sfu_gelu_lane.sv
+SFU/rtl/dea8_sfu_gelu4.sv
+SFU/rtl/dea8_sfu_rope_rom.sv
+SFU/rtl/dea8_sfu_precision_pkg.sv
+SFU/rtl/dea8_sfu_exp4_wide.sv
+SFU/rtl/dea8_sfu_recip_wide.sv
+SFU/rtl/dea8_sfu_gelu4_wide.sv
+SFU/rtl/dea8_sfu_top.sv

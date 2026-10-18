@@ -1,0 +1,10 @@
+_deps/
+build/
+.Xil/
+xsim.dir/
+*.wdb
+*.jou
+*.dcp
+*.pb
+*.exe
+__pycache__/
