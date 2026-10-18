@@ -1,0 +1,3 @@
+本地VPU完整快照，来源为DEA8_SFU_Perf_20261017_220735/VPU；vpu_rtl与vpu_vendor必须一起使用，并依赖外部PCore的接口package。该快照随真实PCore和SFU通过完整七Job及三个随机压力种子。
+
+文件名中的v3为本地历史沿用命名，不表示使用PCore负责人仓库V3工程。上传整理未修改RTL；源码SHA256见仓库根目录manifests/tested_sources.json与manifests/package_sha256.json。具体PCore版本和验证边界以根目录README为准。
