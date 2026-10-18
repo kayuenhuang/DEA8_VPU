@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 17 22:10:58 2026
+# Process ID: 3804
+# Current directory: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/alpha_numeric
+# Command line: xsim.exe -log numeric.log -mode tcl -source {xsim.dir/alpha_batch_test/xsim_script.tcl}
+# Log file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/alpha_numeric/numeric.log
+# Journal file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/alpha_numeric\xsim.jou
+# Running On: Wuya, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 16779 MB
+#-----------------------------------------------------------
+source xsim.dir/alpha_batch_test/xsim_script.tcl
+# xsim {alpha_batch_test} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+ALPHA_BATCH_FRAME_PASS frame=0 cycles=1133 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=1 cycles=1124 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=2 cycles=1152 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=3 cycles=1114 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=4 cycles=1137 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=5 cycles=1165 reads=51 writes=51
+ALPHA_BATCH_FRAME_PASS frame=6 cycles=1119 reads=51 writes=51
+ALPHA_BATCH_STRICT_PASS completed=8 rows=408 tail_rows=3 stalls=108 flush=1
+$finish called at time : 36960 ns : File "D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/tb/tb_sfu_alpha_batch.sv" Line 90
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:43 . Memory (MB): peak = 239.949 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 162896 KB (Peak: 162896 KB), Simulation CPU Usage: 43000 ms
+INFO: [Common 17-206] Exiting xsim at Sat Oct 17 22:11:43 2026...
