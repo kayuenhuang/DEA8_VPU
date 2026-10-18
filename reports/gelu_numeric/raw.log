@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Oct 17 22:08:22 2026
+# Process ID: 35292
+# Current directory: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/gelu_numeric
+# Command line: xsim.exe -log numeric.log -mode tcl -source {xsim.dir/gelu_wide_test/xsim_script.tcl}
+# Log file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/gelu_numeric/numeric.log
+# Journal file: D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/gelu_numeric\xsim.jou
+# Running On: Wuya, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 24, Host memory: 16779 MB
+#-----------------------------------------------------------
+source xsim.dir/gelu_wide_test/xsim_script.tcl
+# xsim {gelu_wide_test} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+FULL_NUMERIC_PASS comparisons=4096 latency=168 II=1
+GELU_WIDE_STRICT_PASS comparisons=4128 flushes=7 stalls=35
+$finish called at time : 25272 ns : File "D:/VLA_XSim_Work/DEA8_SFU_Perf_20261017_220735/gelu_numeric/tb_gelu_wide.sv" Line 60
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:32 . Memory (MB): peak = 239.129 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 122540 KB (Peak: 122540 KB), Simulation CPU Usage: 31718 ms
+INFO: [Common 17-206] Exiting xsim at Sat Oct 17 22:08:57 2026...
