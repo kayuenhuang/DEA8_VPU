@@ -1,0 +1,367 @@
+[
+  {
+    "path": "PCore/rtl/pcore_pkg.sv",
+    "source_sha256": "eee65f28315a74a852843fb2715858d70d71bd98be0846c66130b7a0bf7e2e32",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_tile_link_pkg.sv",
+    "source_sha256": "4155283f4881f05eb334432e2db21df657464bfe3558e6733d64c1846735c228",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/pcore_control_pkg.sv",
+    "source_sha256": "c89ec31b8e78ab585da384c4de33905d4ac63d8901ba4b9adfb55333d2f470b3",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_ctrl.sv",
+    "source_sha256": "461f3e57cccbe751931962c286d08c32663bef797f3278c4af5d8eed2bd67332",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_matrix_job_dispatch.sv",
+    "source_sha256": "558257818ae42820e427901564b2ebe74d8e015bc6dcd51aacb4ee232af3a7a8",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_qoz_manager.sv",
+    "source_sha256": "84a188a8e4ccb4bc07922edcf3fa3bd160b3b7e0ca882a2930b21593a24a834a",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_projection_job_adapter.sv",
+    "source_sha256": "4220114a0e69b0a3e6ec533a2541f551e59e88e3c428279c06a2402ef8a0ab8f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_attention_job_adapter.sv",
+    "source_sha256": "a852bb673c11057166d80f2c3c057cf11df0193ca63491ce3f4d8978ae34086e",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_job_adapter.sv",
+    "source_sha256": "f310ba7ed20b4d643473b98625eeb0e218d7a9b12f1b66ea5a01022ff9794bc5",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_exec.sv",
+    "source_sha256": "12f13fcf80a35f80f3f8346b84be4184e15fc70a7d8b40e536cd746b30c817f6",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_control.sv",
+    "source_sha256": "a4b445d4a64ab42208b739c91366dbb0fddd42132fb8a6a87153dd594ed87c06",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_post.sv",
+    "source_sha256": "115694e186986ea7564af28c3551b38ca40cd8ce4c6469c3edc5135678e05de9",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_output.sv",
+    "source_sha256": "60d7dd824d369634a57dccc18d6f4333ca0436544798f76e1acc0d4625b0026f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_kv_tile_sender.sv",
+    "source_sha256": "a597b0abad27367de64a2ef7cf0546ac9b58e9cf092a86eeee6f79108a1033ff",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pcore_workspace.sv",
+    "source_sha256": "b597705a56424170bf0e80888dc663b6fe10b3400d7563224548ee12ca7f3e87",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_fp32_pkg.sv",
+    "source_sha256": "82fc253a3fda2e91789819bbec18f2a793a07fb32f72d4b122ad79c8945ee313",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/DEQACC_3.3ns_lane.sv",
+    "source_sha256": "d50763732d16d6e2a8497540d808ac09590fd22edde6416a31eaeb2ab75e504f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/DEQACC_3.3ns.sv",
+    "source_sha256": "15e5a08778e792e5454f2692a6a939cdec8c225fd598af81d4bbd2979338ee90",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/DEQACC_3.3ns_timing_shell.sv",
+    "source_sha256": "2fc21fc817458e85ea671b127b57c3af2f03d314908e698cb1c395be75218957",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_fp32_acc_lane_v4.sv",
+    "source_sha256": "ecbd7cbbe57c86e9431775fec19767192c4421bb854da4469327d36d3fb59fb1",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_deqacc32_v4.sv",
+    "source_sha256": "4fbedadd98ca82534886ca310cf0435896c0b1e9fc687d0659e31ddc76846394",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_fp32_add_v2.sv",
+    "source_sha256": "a24da348b98ce35b03d9faccf1656ade1c2f26ef184f396266bec99a7c90636f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pe_2row.sv",
+    "source_sha256": "4c0db28944383d523b7357784afb62213914286f9e42c839e39f32daa8fd895a",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_mxu_2row.sv",
+    "source_sha256": "c606bb546e37b0ca8411b41f05a970ecb3120e125c6b4f9d44f7514b37cbc5d6",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_afifo.sv",
+    "source_sha256": "36ea5f58093573be82882cfefb53ae10a04a65045aac77d2ace9af8bd63748a0",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_xbc4_adapter.sv",
+    "source_sha256": "4ef97af142248071d42da4f097d8d7cfe29133503644ff5bd46ab4e9eb845a32",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_xbc_frontend.sv",
+    "source_sha256": "3c14dca27a9dcb47086723a6e50c5a4f92f9deafef98e158e055992e1e649a17",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_bfifo.sv",
+    "source_sha256": "fd6a3ec8eca09e5558f7527dbacd44f0be3f699655c82d4b9f21620f8dfad9e2",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_b_serializer.sv",
+    "source_sha256": "e3d676a2c525b6b2da6cf7a6939fff1725d4c837be6fc481ec8c79f2fe09dfcf",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_b_loader.sv",
+    "source_sha256": "99cfbe69408ba1efd4bf9085393d1b674fab47d625a0e7f5db48bfc40d9ddca7",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_matrix.sv",
+    "source_sha256": "62649ff3ae977ea3e0d108069029496b8ffa01c4e917cddd4ae38e2e2845b5ec",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_projection.sv",
+    "source_sha256": "b2e76c0a61422cc3d5009452f37937882f0a26c8f34dd799819805cdab8de7e5",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_attention_scheduler.sv",
+    "source_sha256": "cb26c34c5379ae3dca46bd406b221e2c8d62ed0a8bc3c393be16c182c4a2172f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_attention_scheduler_v4.sv",
+    "source_sha256": "f2c3966979e04b0dfffd2f9622ae4bc39230118e03d0c24aebf5fa686bc946c1",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_local_a_store.sv",
+    "source_sha256": "5583b385a5d8c18bf911aa5382e0abcfab8fc98c7335fa48bb7baaf8ea6bff37",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_attention_matrix.sv",
+    "source_sha256": "839a1b49dede752d8a5681a918545efede89e9b00d296d1eb3321f0a81a7e209",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_pair_store.sv",
+    "source_sha256": "9cb97bae02e3e5983ab22b2d002b17784fea14de062f5cddd3e9ef6ad982ba3d",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_deqacc32.sv",
+    "source_sha256": "412cb3040c332dc47034a5c3a86d0e45b25a7ba559b635a4c8cfe1760b594153",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_acc_store.sv",
+    "source_sha256": "d594364eb83f6c4b98856eecd94cd2e0b62683c9f7eba0a9cc02a72a008b1872",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_pair_buffer.sv",
+    "source_sha256": "d75d78d6e61a26d2ea69bb81ab9d8ac6c1fb94b2392573324c836782e8d55cee",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_matrix.sv",
+    "source_sha256": "93a73275e9e5aa6701be8994702c2f82a06f74e77eb9609383eea77eded52696",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_scheduler.sv",
+    "source_sha256": "6d29c76ca4ff6d35b6cd72e6ba7a49547d481bc8725775608be7c52a8151317f",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_gu_a_replay.sv",
+    "source_sha256": "d05ce017f799fdaeb83d45740bb23f38629b95307db19bbb6626261e86195c08",
+    "external": true
+  },
+  {
+    "path": "PCore/rtl/dea8_qoz_store.sv",
+    "source_sha256": "290757facee57cf1bf3a8c62c64b7badc41f784c9ef15a1bc0ebd4bf51dd530d",
+    "external": true
+  },
+  {
+    "path": "PCore/tb/fp32_legacy_ref_pkg.sv",
+    "source_sha256": "fedba02a32220aec583837e25f6b52ceadd4ae9e4ea421e9503a5b4966295271",
+    "external": true
+  },
+  {
+    "path": "VPU/vpu_vendor/dea8_fp32_v3_pkg.sv",
+    "source_sha256": "4c618e420b6377f01e1a7f8fcfccbc1560a403a2b528ba749d11537e61c0346a",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_math_pkg.sv",
+    "source_sha256": "859072609028b102baceed359e322e93666d13df41d30aff01894b72f3196b17",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_quant16.sv",
+    "source_sha256": "21af46cfec9d14098178d40ec4fafae66cde53aa52ff5f84c8dfac21d94fbc1b",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_quant16_pipe.sv",
+    "source_sha256": "e843480d3d05aacb65548377d03a35c6a0d7a94dca23544f4881045d40e30f49",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_mul32_shared.sv",
+    "source_sha256": "e9e2f40b7220031a36147821407c7ddff86743383b728d9c7670a14a17d07941",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_dsp_addsub.sv",
+    "source_sha256": "1753f603cf68544d229dbb293d7660c278c685f9ecc61b79dc9b13db07592854",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_add_pipe.sv",
+    "source_sha256": "c0ac58415bf91c8b11c0fa239dd0ac1c88170bf3e87828f305f9153b2907b62f",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_p_pipe.sv",
+    "source_sha256": "3da51b1d8058caddeac309209390f950392753af80d8c22b9a0a2f419d960c71",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_qk_post_pair_v3.sv",
+    "source_sha256": "c45c6a05997c2a03f639e2f49a556a6f32f0f6a544abb9b02210fd83277cdc74",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_saved_ram.sv",
+    "source_sha256": "1f2087438c3fa686727df6b87155fa7687acd9406effb1be0efa505fc240204f",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_stream_ram.sv",
+    "source_sha256": "bdcdf91879eea2968094e9ae45aff030c8a7ae6c2259e2e1b126a0130da4acfb",
+    "external": false
+  },
+  {
+    "path": "VPU/vpu_rtl/dea8_vpu_top.sv",
+    "source_sha256": "a0ed669b028ab4ddfe9380a0409e84bc217d3da47594f120ba283771a493da00",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_fixed_pkg.sv",
+    "source_sha256": "9a23ed3e566dc8dbf3ce580ac7e76dd7ab8d55f86eed339d00429decc334cff6",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_gelu_lane.sv",
+    "source_sha256": "706066cb379af2cab132458fd80dbeaaa2805d1da3afad339e1f978cedac2c79",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_gelu4.sv",
+    "source_sha256": "8249f8068590664f17dba852d0d0b801f814160b079a54b556473be6f3ea2124",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_rope_rom.sv",
+    "source_sha256": "5cdc80d13f38cf034bbfc32af6658e2a85db8872f59667acb3689a05a2cfb5fd",
+    "external": false
+  },
+  {
+    "path": "ip64_retry/generated/sfu_sub64_ip/sim/sfu_sub64_ip.v",
+    "source_sha256": "781a7843a90f7c2b4dd287101c064744848ffd108545c5f390fe8328153a2397",
+    "external": true
+  },
+  {
+    "path": "ip64_retry/generated/sfu_exp64_ip/sim/sfu_exp64_ip.v",
+    "source_sha256": "834e3e9494494650196fda695677068ad010b21ba716760b348c516da282e761",
+    "external": true
+  },
+  {
+    "path": "ip64_retry/generated/sfu_recip64_ip/sim/sfu_recip64_ip.v",
+    "source_sha256": "9a3e8645c9c6d92108108b53e484533d0916fac44cba70b3684245f8bee4b0ae",
+    "external": true
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_precision_pkg.sv",
+    "source_sha256": "44632c7db44d064dc57d1bfeb4793bb0dfe07749d6b0ceecab0a17cd741bac68",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_exp4_wide.sv",
+    "source_sha256": "9922472ca9d55bf491d4f9003461f010e85186f28942e5f7a66c6d73ab922175",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_recip_wide.sv",
+    "source_sha256": "328c78622739c1341dd029b472a6e6a784a28c8914331b030d657e644e5367fc",
+    "external": false
+  },
+  {
+    "path": "gelu_ip/generated/sfu_gmul64_ip/sim/sfu_gmul64_ip.v",
+    "source_sha256": "d36f8604404e445e88b23444de2784c56558c7bc3c031b2bb1a02b928016a3ee",
+    "external": true
+  },
+  {
+    "path": "gelu_ip/generated/sfu_gadd64_ip/sim/sfu_gadd64_ip.v",
+    "source_sha256": "8e8b6887d42c6d37023b18a2f3e77a74060f89fee2c0e1c38255df96f7652dfd",
+    "external": true
+  },
+  {
+    "path": "gelu_ip/generated/sfu_gdiv64_ip/sim/sfu_gdiv64_ip.v",
+    "source_sha256": "bd9ad828155bdfe559ecaf3d80cbb0dedc4bb44ef3aa17bfe4a283dd34849240",
+    "external": true
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_gelu4_wide.sv",
+    "source_sha256": "672b41ff80a801df4a419e3074dde10120fa6f5a2267da3fb7807ac4e4ca5c08",
+    "external": false
+  },
+  {
+    "path": "SFU/rtl/dea8_sfu_top.sv",
+    "source_sha256": "c4e2f0146bcef5a0d0f15f5f8e1cc463909fe6ba65a069d0eae749818512a836",
+    "external": false
+  },
+  {
+    "path": "tb/tb_pcore_vpu_sfu.sv",
+    "source_sha256": "4dd297fb042fbd6a77f5763b08c15a1110d32f07f158a7fd12675826d3fadc0f",
+    "external": false
+  }
+]
